@@ -14,9 +14,9 @@ void Cust::print(ostream &os)
 {
     os<<m_name<<" ";
     if (m_isRobber)
-    os<<"robber";
+    os<<"robber ";
     else
-    os<<"shopper";
+    os<<"shopper ";
     os<<m_arrival_time<<" ";
     os<<m_num_items<<endl;
 }
